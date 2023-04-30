@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio_sample</title>
+    <style>
+      .main {
+        display: flex;
+        justify-content: space-between;
+        background-color: bisque;
+        margin-right: 5%;
+        margin-left: 5%;
+      }
+      .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+      }
+      .nvg {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+      }
+      .a {
+        margin-right: 10px;
+      }
+      section {
+        height: 600px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-right: 5%;
+        margin-left: 5%;
+      }
+      img {
+        width: 200px;
+        height: auto;
+        border-radius: 10%;
+        border: 2px solid black;
+      }
+      #profile {
+        background-image: url(/images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #about{
+        background-image: url(/images/bg_p1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #education{
+        background-image: url(/images/bg2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #experience {
+        background-image: url(/images/bg_p1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #skills {
+        background-image: url(/images/bg3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: aliceblue;
+      }
+      #others{
+        background-image: url(/images/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(226, 26, 26);
+      }
+      #contact {
+        background-image: url(/images/bg2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: aliceblue;
+
+      }
+      .div-a {
+        font-style: italic;
+        color: aliceblue;
+        font-size: 32px;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main">
+      <div class="nav">
+        <a class="a" href="#profile"> Profile</a>
+        <a class="a" href="#about">About</a>
+        <a class="a" href="#education">Education</a>
+        <a class="a" href="#experience">Experience</a>
+        <a class="a" href="#skills">Skills</a>
+        <a class="a" href="#others">Others</a>
+      </div>
+      <div class="nvg">
+        <a class="a" href="#contact">Contact</a>
+        <a class="a" href="#gallery">Gallery</a>
+      </div>
+    </header>
+    <section id="profile">
+      <div class="div-a">
+        <h1>Hey There!</h1>
+        <h4>I'm Tejaswini </h2>
+      </div>
+    </section>
+    <section id="about">
+      <img src="images/teju.jpg" alt="my photo" />
+      <h2>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus fugiat magnam assumenda exercitationem itaque, delectus praesentium dicta a cumque similique quod facilis at, architecto veniam temporibus odit sunt dolorum? Dicta.
+      </h2>
+    </section>
+    <section id="education">
+      <div class="div-s">
+        <h1>Bhashyam Public School</h1>
+      </div> <br>
+      <div class="div-c">
+        <h1>Maharajah's Institute of Medical Sciences</h1>
+      </div><br>
+      <div class="div-g">
+        <h1>Cornell University</h1>
+      </div>
+    </section>
+    <section id="experience">
+      <div class="work">
+        <div class="div-i">
+        <li>Maharajah's institute of medical sciences</li>
+        <li>Sri Sai SuperSpeciality Hospital</li>
+        </div>
+        <div class="div-us">
+        <li>LaSante Health Center</li>
+        <li>Hackensack Palisades Medical Center</li>
+        <li>Staten island University Hospital</li>
+        <li>Arya Gastro-Enterology Clinic</li>
+        </div>
+      </div>
+      <div class="volunteer">
+       <li>SVV-A National Health Mission</li>
+       <li>Medical camps</li>
+       <li>Blood Donation Camps</li>
+       <li>Vaccination Drive</li>
+      </div>
+    </section>
+    <section id="skills">
+      <ul>
+      <h2>My Skills</h2> 
+        <li>Emotional Intelligence</li>
+        <li>Critical Thinking</li>
+        <li>Effective Time-Management</li>
+        <li>Leadership Qualities</li>
+        <li>Multi-tasking</li>
+        <li>Interpersonal Communication Skills</li>
+        <li>Online Research</li>
+      </ul>
+      <ul>
+      <h2>Hobbies</h2>
+        <li>Painting</li>
+        <li>Chess</li>
+        <li>Badminton</li>
+        <li>Cooking</li>
+        <li>Coding</li>
+        <li>Fiction Novels</li>
+      </ul>  
+      <ul>
+      <h2>Languages</h2>
+        <li>Telugu</li>
+        <li>English</li>
+        <li>Hindi</li>
+        <li>Kannada</li>
+        <li>Spanish</li>
+        </ul>
+    </section>
+    <section id="others">
+      <ul>
+      <h2>Student associations </h2>
+      <p>AMSA, AMSA INDIA (ID:MIMSV001)</p>
+      <p>MSAI, IFMSA (ID:123765762)</p>
+      <h2>Exchange Programs</h2>
+      <h4>Majapahit</h4>
+      <p>AMSEP Indonesia x India</p>
+      <h4>EAMSEP 2022</h4>
+      <p>AMSA India x TurkMSIC Cerrahpasa</p>
+      <h2>Workshops</h2>
+      <h4>Mersa Methodologies Workshop</h4>
+      <p>Asian Medical Students Association, India</p>
+      <h4>Research workshop</h4>
+      <p>California Institute Of Behavioural Neuro-sciences and Psychology</p>
+      </ul>
+    </section>
+    <section id="contact">
+     <div class="sec3">
+        <h2 class="con">Wanna Reach me?</h2>
+        <p class="con">Hop on and send a message:</p>
+        <ul>
+          <li><a href="./images/WA_qr.jpg"> Whats app</a></li>
+          <li><a href="twitter.com/@tejaswini2811"></a>Twitter</li>
+          <li><a href=mailto:"tejaswini2811@gmail.com">Email</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="gallery">
+
+    </section>
+  </body>
+</html>

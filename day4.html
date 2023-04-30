@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+    <style>
+      body {
+        background-color: darkolivegreen;
+      }
+
+      .a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 20px;
+        margin-right: 10px;
+      }
+      .b {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 20px;
+      }
+      .main {
+        display: flex;
+        justify-content: space-between;
+        background-color: bisque;
+        margin-right: 10px;
+      }
+      .ass {
+        margin-right: 10px;
+      }
+      .a:hover {
+        background-color: rgb(55, 25, 207);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flexbox</h1>
+    <div class="main">
+      <div class="a">
+        <a class="ass">Pic</a>
+        <a class="ass">Me</a>
+        <a class="ass">Education</a>
+        <a class="ass">Strengths</a>
+      </div>
+      <div class="b">
+        <a class="ass">Hobbies</a>
+        <a class="ass">Conatct</a>
+      </div>
+    </div>
+  </body>
+</html>

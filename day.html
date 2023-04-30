@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <style>
+      header {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        line-height: 50px;
+        background-color: bisque;
+      }
+      header * {
+        display: inline;
+        height: 50px;
+      }
+      header a {
+        color: rgb(15, 13, 13);
+      }
+      header ul {
+        padding: 0;
+      }
+      header li {
+        list-style-type: none;
+        margin-left: 10px;
+      }
+      section {
+        height: 100%;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      .pic1 {
+        border-radius: 50px;
+        width: 50px;
+      }
+      .pic2 {
+        border-radius: 50px;
+        width: 200px;
+        height: auto;
+      }
+      .main {
+        font-style: italic;
+      }
+      .info {
+        font-size: large;
+        color: brown;
+      }
+      li {
+        list-style-type: none;
+      }
+      .sec1 {
+        margin-top: 50px;
+        background-image: url(images/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        object-fit: contain;
+      }
+      .sec2 {
+        height: 350px;
+        background-image: url(images/bg2.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .sec3 {
+        height: 250px;
+        background-image: url(images/bg3.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .con {
+        color: aliceblue;
+      }
+      h1 {
+        color: rgb(13, 13, 13);
+      }
+      h3 {
+        color: rgb(2, 23, 41);
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img class="pic1" src="images/teju.jpg" alt="my photo" />
+      <nav>
+        <ul>
+          <li><a href="#Me">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="Me">
+      <div class="sec1">
+        <img
+          class="pic2"
+          src="images/teju.jpg"
+          alt="My Photo"
+          class="profile-img"
+        />
+        <h1 class="main">
+          Hello There! I'm Tejaswini Nagammagari<br />
+           <br />
+          Welcome to my page.
+        </h1>
+      </div>
+    </section>
+    <section id="about">
+      <div class="sec2">
+        <h2>Hey folks!</h2>
+        <p class="info">
+          I'm Dr.Tejaswini Nagammagari, an aspiring physician and I love coding
+          too.
+        </p>
+        <h3>Education</h3>
+        <ul class="list">
+          <li>Bhashyam Public School</li>
+          <li>Bhashyam Med-Ex academy</li>
+          <li>Maharajah'ss Institute of Medical Sciences</li>
+          <li>Cornell University</li>
+        </ul>
+      </div>
+    </section>
+    <section id="Contact">
+      <div class="sec3">
+        <h2 class="con">Wanna Reach me?</h2>
+        <p class="con">Hop on and send a message:</p>
+        <ul>
+          <li><a href="./images/WA_qr.jpg"> Whats app</a></li>
+          <li><a href="twitter.com/@tejaswini2811"></a>Twitter</li>
+          <li><a href=mailto:"tejaswini2811@gmail.com">Email</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>Signing Off @ Ashvee Ram &copy;</footer>
+  </body>
+</html>
